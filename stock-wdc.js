@@ -1,4 +1,4 @@
-function initializeViz() {
+function initViz() {
   // JS object that points at empty div in the html
   var placeholderDiv = document.getElementById("tableauViz");
   // URL of the viz to be embedded
