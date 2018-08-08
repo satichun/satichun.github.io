@@ -2,15 +2,11 @@
 <html>
 	<head>
 		<title>JS API Test</title>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-    		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-		<script src="stock-wdc.js" type="text/javascript"></script>
+		<script src="stock-wdc1.js" type="text/javascript"></script>
 	</head>
-	<body>
+	<body onload = "initViz();">
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>
@@ -20,7 +16,7 @@
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi, I'm Satish</h1>
-				<p>This is a sample embed using JS API</em> <a href="/about">Read more about me...</a></p>
+				<p>This is a sample embed using JS API</em> <a href="/about"></a></p>
 		<div id="tableauViz"></div>
     		</div><!-- /.blurb -->
 		
@@ -28,7 +24,7 @@
 		
 		<footer>
     		<ul>
-        		<li><a href="mailto:satichun@gmail.com">email</a></li>
+        		
         		<li><a href="https://github.com/satichun">github.com/satichun</a></li>
 			</ul>
 		</footer>
