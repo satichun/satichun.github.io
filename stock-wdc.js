@@ -5,7 +5,7 @@ function initViz() {
   var url = "https://public.tableau.com/views/StockPricewithWDC-WIP/AppleStock?:embed=y&:display_count=yes";
   // An object that contains options specifying how to embed the viz
   var options = {
-    width: '900px',
+    width: '1000px',
     height: '400px',
     hideTabs: true,
     hideToolbar: true,
