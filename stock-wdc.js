@@ -6,7 +6,7 @@ function initViz() {
   // An object that contains options specifying how to embed the viz
   var options = {
     width: '900px',
-    height: '500px',
+    height: '400px',
     hideTabs: true,
     hideToolbar: true,
   };
